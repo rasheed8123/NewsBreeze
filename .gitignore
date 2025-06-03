@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/build/
+client/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Misc
+*.log
+*.pem
+
+# Client specific
+client/.pnp
+client/.pnp.js
+client/.pnp.deps.js
+client/.pnp.deps.ts
+client/.pnp.deps.tsx
+client/.pnp.deps.jsx
+client/.pnp.deps.json
+client/node_modules
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Server specific
+server/.pnp
+server/.pnp.js
+server/.pnp.deps.js
+server/.pnp.deps.ts
+server/.pnp.deps.tsx
+server/.pnp.deps.jsx
+server/.pnp.deps.json
+server/node_modules
+server/.env.local
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
